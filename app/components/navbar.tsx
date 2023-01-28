@@ -1,12 +1,20 @@
+import Link from 'next/link';
+
 export default function Navbar() {
   return (
     <header className="py-6">
       <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <div className="text-lg font-bold pr-10">lowgy.dev</div>
         <div className="hidden md:flex space-x-12 items-center">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/projects">Projects</a>
+          <Link href="/" className="navlink hover:text-red-500">
+            Home
+          </Link>
+          <Link href="/about" className="navlink hover:text-red-500">
+            About
+          </Link>
+          <Link href="/projects" className="navlink hover:text-red-500">
+            Projects
+          </Link>
         </div>
         <div className="md:hidden">
           <svg
