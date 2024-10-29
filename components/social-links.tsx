@@ -9,7 +9,7 @@ export default function SocialLinks() {
         <li className="mr-8 text-xs">
           <a
             className="block hover:text-slate-200 transition ease-in-out duration-100"
-            href="https://github.com/notAkki"
+            href="https://github.com/lowgy"
             target="_blank"
             rel="noreferrer noopener"
             id="Github link"
@@ -20,7 +20,7 @@ export default function SocialLinks() {
         <li className="mr-8 text-xs">
           <a
             className="block hover:text-slate-200 transition ease-in-out duration-100"
-            href="https://www.linkedin.com/in/aksharbarot/"
+            href="https://www.linkedin.com/in/loganolson/"
             target="_blank"
             rel="noreferrer noopener"
             id="Linkedin link"
@@ -31,7 +31,7 @@ export default function SocialLinks() {
         <li>
           <a
             className="block hover:text-slate-200 transition ease-in-out duration-100"
-            href="mailto:akshar.barot67@gmail.com"
+            href="mailto:loganolsonn@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
             id="Email link"
