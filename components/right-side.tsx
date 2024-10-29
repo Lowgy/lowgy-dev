@@ -1,5 +1,6 @@
 import Footer from '@/components/footer';
 import Experiences from '@/components/experiences';
+import Projects from '@/components/projects';
 
 export default function RightSide() {
   return (
@@ -8,7 +9,7 @@ export default function RightSide() {
         <Experiences />
       </section>
       <section id="projects" className="section mb-6 scroll-mt-24 md:mb-24">
-        {/* <Projects /> */}
+        <Projects />
       </section>
       <Footer />
     </div>
