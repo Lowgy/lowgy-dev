@@ -8,8 +8,8 @@ export default function LeftSide() {
         <div className="text-4xl sm:text-5xl font-bold tracking-tight text-slate-200">
           Logan Olson
         </div>
-        <div className="mt-4 max-w-xs leading-normal">
-          Software Developer based in Winnipeg, Manitoba.
+        <div className="font-medium tracking-tight text-slate-200 sm:text-xl text-nowrap mt-4">
+          Software Developer - Winnipeg, Manitoba.
         </div>
         <div className="lg:mr-[70px] mt-4 md:mt-8 leading-relaxed">
           <div className="mb-4">
