@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Link2 } from 'lucide-react';
+import { Link2, ChevronRight } from 'lucide-react';
 import { experienceData } from '@/lib/data';
 
 type ExperienceProps = (typeof experienceData)[number];
@@ -78,7 +78,10 @@ export default function Experiences() {
           rel="noreferrer noopener"
           className="inline-flex items-center font-bold leading-tight text-slate-200 group"
         >
-          Click here to view my resume
+          <span className="border-b-2 border-transparent pb-px transition group-hover:border-[#7a92f0] ease-in-out duration-200">
+            Click here for resume
+          </span>
+          <ChevronRight className="h-5 w-5 ml-2 -mt-0.5 text-slate-200 group-hover:text-[#a3b4f6] group-hover:translate-x-2 ease-in-out duration-200" />
         </Link>
       </div>
     </div>
