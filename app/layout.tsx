@@ -1,19 +1,9 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
-
+import { Poppins } from 'next/font/google';
 import './globals.css';
 import Mousefollow from '@/components/mouse-follow';
 
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-});
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
-});
+const poppins = Poppins({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Logan Olson',
@@ -38,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#ff1919] bg-gradient-to-br from-[#14213d] from-35% to-[#e63946] leading-relaxed text-slate-400 selection:bg-[#7a92f0] selection:text-indigo-950 min-h-screen overscroll-none`}
+        className={`${poppins.className} antialiased bg-[#ff1919] bg-gradient-to-br from-[#14213d] from-35% to-[#e63946] leading-relaxed text-slate-400 selection:bg-[#7a92f0] selection:text-indigo-950 min-h-screen overscroll-none`}
       >
         <div>
           {children}
