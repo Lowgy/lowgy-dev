@@ -50,7 +50,7 @@ export const projectsData = [
       'A tool to help generate fair trades in Fantasy Football leagues based on player values.',
     tags: ['Next.js', 'Typescript', 'Tailwind', 'PostgreSQL', 'Prisma'],
     imageUrl: '/fantasytrade.png',
-    link: 'https://fantasy-trade-generator.vercel.app/',
+    link: 'https://github.com/Lowgy/fantasy-trade-generator',
     isLink: true,
     alt: 'Fantasy Football Trade Generator Project Image',
   },
