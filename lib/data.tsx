@@ -2,7 +2,7 @@ export const experienceData = [
   {
     position: 'Full Stack Developer',
     company: 'Moonlite Media',
-    date: 'Feb. 2024 - Present',
+    date: 'May. 2024 - Present',
     description: 'Classified',
     tags: ['Next.js', 'Typescript', 'Tailwind'],
     link: 'https://www.moonlitemedia.ca/home',
