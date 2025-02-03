@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Link2, ChevronRight } from 'lucide-react';
+import { Link2 } from 'lucide-react';
 import { experienceData } from '@/lib/data';
 
 type ExperienceProps = (typeof experienceData)[number];
