@@ -71,19 +71,6 @@ export default function Experiences() {
           <ExperienceCard key={index} {...experience} />
         ))}
       </div>
-      <div>
-        <Link
-          href="/resume.pdf"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="inline-flex items-center font-bold leading-tight text-slate-200 group"
-        >
-          <span className="border-b-2 border-transparent pb-px transition group-hover:border-[#7a92f0] ease-in-out duration-200">
-            Click here for resume
-          </span>
-          <ChevronRight className="h-5 w-5 ml-2 -mt-0.5 text-slate-200 group-hover:text-[#a3b4f6] group-hover:translate-x-2 ease-in-out duration-200" />
-        </Link>
-      </div>
     </div>
   );
 }
