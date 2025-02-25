@@ -35,6 +35,39 @@ export const experienceData = [
 
 export const projectsData = [
   {
+    title: 'Pin Seekers',
+    description: 'Review site centered around Manitoba Golf Courses.',
+    tags: [
+      'React',
+      'PostgreSQL',
+      'Node.js',
+      'Express.js',
+      'Google Maps API',
+      'Prisma',
+    ],
+    imageUrl: '/pinseekers.png',
+    link: 'https://pin-seekers.onrender.com/',
+    isLink: true,
+    alt: 'Pin Seekers Image',
+  },
+  {
+    title: 'ChatCaseBot',
+    description:
+      'Twitch Chat Bot allowing for CSGO Streamers to increase chat engagement',
+    tags: [
+      'React',
+      'PostgreSQL',
+      'Node.js',
+      'Express.js',
+      'Prisma',
+      'Twitch OAuth',
+    ],
+    imageUrl: '/chatcasebot.png',
+    link: 'https://chatcasebot.com',
+    isLink: true,
+    alt: 'ChatCaseBot Image',
+  },
+  {
     title: 'MCSR Ranked',
     description:
       'Home of all things for competitve Minecraft Speedruning. View the stats and rankings of current + past seasons.',
