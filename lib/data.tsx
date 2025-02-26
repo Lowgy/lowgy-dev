@@ -50,23 +50,23 @@ export const projectsData = [
     isLink: true,
     alt: 'Pin Seekers Image',
   },
-  {
-    title: 'ChatCaseBot',
-    description:
-      'Twitch Chat Bot allowing for CSGO Streamers to increase chat engagement',
-    tags: [
-      'React',
-      'PostgreSQL',
-      'Node.js',
-      'Express.js',
-      'Prisma',
-      'Twitch OAuth',
-    ],
-    imageUrl: '/chatcasebot.png',
-    link: 'https://chatcasebot.com',
-    isLink: true,
-    alt: 'ChatCaseBot Image',
-  },
+  // {
+  //   title: 'ChatCaseBot',
+  //   description:
+  //     'Twitch Chat Bot allowing for CSGO Streamers to increase chat engagement',
+  //   tags: [
+  //     'React',
+  //     'PostgreSQL',
+  //     'Node.js',
+  //     'Express.js',
+  //     'Prisma',
+  //     'Twitch OAuth',
+  //   ],
+  //   imageUrl: '/chatcasebot.png',
+  //   link: 'https://chatcasebot.com',
+  //   isLink: true,
+  //   alt: 'ChatCaseBot Image',
+  // },
   {
     title: 'MCSR Ranked',
     description:
