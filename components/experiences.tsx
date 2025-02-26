@@ -18,7 +18,7 @@ function ExperienceCard({
 }: ExperienceProps) {
   return (
     <div className="mb-6 sm:mb-8">
-      <Link href={link}>
+      <Link href={link} target="_blank">
         <div className="rounded-xl transtion ease-in-out flex flex-row group pt-4">
           <Image
             src={imageUrl}

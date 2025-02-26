@@ -5,7 +5,7 @@ export const experienceData = [
     date: 'May. 2024 - Present',
     description: 'Classified',
     tags: ['Next.js', 'Typescript', 'Tailwind'],
-    link: 'https://www.moonlitemedia.ca/home',
+    link: 'https://moonlitelabs.com/',
     imageUrl: '/moonlitemedia.png',
     alt: 'Moonlite Media Logo',
   },
